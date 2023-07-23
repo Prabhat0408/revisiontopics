@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http'://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd 
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd 
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<!-- THIS IS OUR BRAN -->
+
+<!--  	<bean
+		class="com.springcore.Student" name="student1">
+		<property name="studentId" value="12334" />
+		<property name="studentName" value="Prabhat" />
+		<property name="studentAddress" value="Vadodara" />
+	</bean>
+		This is second bean
+	<bean
+		class="com.springcore.Student" name="student2">
+		<property name="studentId" value="12334" />
+		<property name="studentName" value="Nikita" />
+		<property name="studentAddress" value="Saharanpur" />
+
+	</bean> -->
+	
+	<bean
+		class="com.springcore.Student" name="student1" p:studentId= "234" p:studentName="Prabhart" p:studentAddress= "Saharanpur">
+	</bean>
+	
+	<bean
+		class="com.springcore.Student" name="student2" p:studentId= "2341" p:studentName="Prabhart" p:studentAddress= "Saharanpur">
+	</bean>
+	
+	
+	
+
+
+
+
+</beans>
